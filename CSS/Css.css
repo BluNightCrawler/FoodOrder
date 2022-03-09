@@ -1,0 +1,60 @@
+*{
+    padding:2px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+    
+}
+select{
+    position: absolute;
+    display: block;
+}
+body{
+    background-color: grey;
+}
+h1{
+    color:blue;
+    text-align: center;
+    
+}
+div label{
+    text-align: center;
+}
+#Container3{
+    grid-template-columns: 15% auto 20%;
+    
+}
+#Container3{
+    display: grid;
+    border: 2px dotted green;
+}
+Body p{
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+    
+}
+#Container-Left{
+    grid-template-columns: 10% auto;
+    display:grid;
+}
+#Container-Left p{
+    grid-column-start: 2;    
+    margin-bottom: 25px;
+}
+#Container-Left label{
+    margin-left: -10px;
+    background: -1px;
+}
+#Hidden{
+    
+    grid-template-columns: 50% 25%;
+}
+#Container-Right{
+    grid-template-columns: 10% auto;
+    display:grid;
+}
+#Container-Right p{
+    grid-column-start: 2;    
+    margin-bottom: 25px;
+}
