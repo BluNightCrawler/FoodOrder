@@ -2,17 +2,17 @@
 <html>
     <head>
 <link href="CSS/Css.css"rel="StyleSheet" src="Css.Css">
-<Link href="Java/demo.js" rel="StyleSheet" src="demo.js">
+
 </head>
 <title>Order Some Food Restraunt Name</title>
 
 <body>
     <H1>Restraunt Pizza</H1>
     <br>
-<select>
-    <option value="Deleivery">Delievery</option>
-    <option value="Carry-out">Carry-Out</option>
-</select>
+
+<button type="deliervy" onclick="myFunction()">Delievery</button>
+<button type="Carryout" onclick="myFunction2()">Carry-Out</button>
+
 </body>
 <br><br>
 <body>
@@ -35,7 +35,7 @@
         <label for="Pan">Pan</label> 
         </div>
         
-        <input type="text"  width="100px" height="200px" >
+        <input  type="text" id="Textinput" width="100px" height="200px" >
         <div id="Container-Right">
         <p>Toppings</p>
         <input type="checkbox" id="Olives" name="Toppings"></input>
@@ -66,7 +66,7 @@
     </div> 
 </body>
 <body>
-    <div id="Hidden">
+    <div>
         <p>Options</p>
         <form>
             <label for="fName">First Name:</label>
@@ -86,16 +86,20 @@
                 <option value="Store">Seatac</option>
                 <option value="Store">Renton</option>
             </select>
-            <br><br><br>
+            <br><br>
+            <div id="hidden"><br>
+                <p>This is for Delievery</p>
             <label for="Address">Address:</label>
             <input name="Address">
             <br>
+            
             <label for="ZipCode">Zipcode:</label>
             <input type="number" name="ZipCode">
-            
+            </div>
             
         </form>
     </div>
+    <script src="Java/demo.js"> alert();</script>
 </body>
 
 
