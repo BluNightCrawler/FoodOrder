@@ -14,6 +14,41 @@
 <button type="Carryout" onclick="myFunction2()">Carry-Out</button>
 
 </body>
+<br>
+<br>
+<div>
+    <p>Information</p>
+    <form>
+        <label for="fName">First Name:</label>
+        <input name="fName" id="fName" >
+        <br>
+        <label for="lName">Last Name:</label>
+        <input name="lName" id="lName">
+        <br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone" id="Tel">
+        <br>
+        <label for="Store">Which Store You want to pick it up:</label>
+        <select id="Store">
+            <option value="Store">Seatac</option>
+            <option value="Store">Des Moines</option>
+            <option value="Store">Federal Way</option>
+            <option value="Store">Seatac</option>
+            <option value="Store">Renton</option>
+        </select>
+        <br><br>
+        <div id="hidden"><br>
+            <p>This is for Delievery</p>
+        <label for="Address">Address:</label>
+        <input name="Address">
+        <br>
+        
+        <label for="ZipCode">Zipcode:</label>
+        <input type="number" name="ZipCode">
+        </div>
+        
+    </form>
+</div>
 <br><br>
 <body>
     <div id="Container3">
@@ -35,7 +70,13 @@
         <label for="Pan">Pan</label> 
         </div>
         
-        <input  type="text" id="Textinput" width="100px" height="200px" >
+        <!-- TEXT INPUT -->
+        <!-- <input  type="text" id="Textinput" width="100px" height="200px" ></input> -->
+        <div id="display">
+            This is going to be the Summary
+        </div>
+
+
         <div id="Container-Right">
         <p>Toppings</p>
         <input type="checkbox" id="Olives" name="Toppings"></input>
@@ -66,39 +107,10 @@
     </div> 
 </body>
 <body>
-    <div>
-        <p>Options</p>
-        <form>
-            <label for="fName">First Name:</label>
-            <input name="fName">
-            <br>
-            <label for="lName">Last Name:</label>
-            <input name="lName">
-            <br>
-            <label for="Phone">Phone:</label>
-            <input type="tel" name="Phone">
-            <br>
-            <label for="Store">Which Store You want to pick it up:</label>
-            <select>
-                <option value="Store">Seatac</option>
-                <option value="Store">Des Moines</option>
-                <option value="Store">Federal Way</option>
-                <option value="Store">Seatac</option>
-                <option value="Store">Renton</option>
-            </select>
-            <br><br>
-            <div id="hidden"><br>
-                <p>This is for Delievery</p>
-            <label for="Address">Address:</label>
-            <input name="Address">
-            <br>
-            
-            <label for="ZipCode">Zipcode:</label>
-            <input type="number" name="ZipCode">
-            </div>
-            
-        </form>
-    </div>
+        <input type="button" value="Apply" id="btn-click-me">
+    
+    <div > <p>Total $ <b>Money</b></p> </div>
+    
     <script src="Java/demo.js"> alert();</script>
 </body>
 

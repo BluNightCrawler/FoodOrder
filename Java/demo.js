@@ -1,11 +1,20 @@
 
-const Txtinput = document.getElementById("Textinput");
+const Txtinput = document.getElementById("display");
 const visible = document.getElementById("hidden");
 const delivery = document.getElementById("Deleivery");
+const fname = document.getElementById("fName");
+const lname = document.getElementById("lName");
+const tel = document.getElementById("Tel");
+const Store = document.getElementById("Store");
+
+
+
+const btn = document.getElementById("btn-click-me");
 
 
 function myFunction(){
     document.getElementById("hidden").style.visibility = "visible";
+    //document.getElementById("hidden").innerText = "this works";
     alert();
 }           
 
@@ -16,4 +25,14 @@ function hidden(){
     document.onload().style.visibility = "hidden"
 } 
 
-Txtinput.innerText = "This  Works";
+
+
+btn.addEventListener("click", function(){
+
+    Txtinput.innerText = "Name: "+fname.value + lname.value + 
+    "\nTelephone: "+tel.value+"\n Store You chosed:"+ Store.value;
+
+
+
+})
+
