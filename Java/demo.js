@@ -6,6 +6,11 @@ const fname = document.getElementById("fName");
 const lname = document.getElementById("lName");
 const tel = document.getElementById("Tel");
 const Store = document.getElementById("Store");
+const Address = document.getElementById("Address");
+const ZipCode = document.getElementById("Zipcode");
+const Size = document.getElementById("Size");
+
+
 
 
 
@@ -30,7 +35,10 @@ function hidden(){
 btn.addEventListener("click", function(){
 
     Txtinput.innerText = "Name: "+fname.value + lname.value + 
-    "\nTelephone: "+tel.value+"\n Store You chosed:"+ Store.value;
+    "\nTelephone: "+tel.value+"\n Store You chosed:"+ Store.value
+    "Address:" +Address.value +"ZipCode:"+ ZipCode.value ;
+
+    
 
 
 
